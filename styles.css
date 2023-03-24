@@ -45,3 +45,12 @@ li {
   color: gold;
   font-weight: bold;
 }
+
+/* Welcome Section */
+
+#welcome-section {
+  position: absolute;
+  top: 80px;
+  width: 100%;
+  border: 1px solid;
+}
