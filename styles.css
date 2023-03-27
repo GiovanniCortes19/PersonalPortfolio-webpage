@@ -26,6 +26,11 @@ body {
   font-weight: 400;
 }
 
+a {
+  text-decoration: none;
+  color: white;
+}
+
 /* Top Navigation Bar  */
 
 #navbar {
@@ -73,8 +78,7 @@ ul {
 }
 
 #navbar a {
-  text-decoration: none;
-  color: white;
+  transition: font-weight 0.3s linear;
 }
 
 #navbar a:hover {
@@ -113,6 +117,16 @@ section {
   border-bottom: 2px solid;
 }
 
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 4rem;
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+  margin-bottom: 6rem;
+}
+
 /* Contact Section */
 .contact-section {
   display: flex;
@@ -141,8 +155,6 @@ section {
   font-size: 2.4rem;
   text-shadow: 2px 2px 1px #1f1f1f;
   transition: transform 0.3s ease-out;
-  text-decoration: none;
-  color: white;
 }
 
 #social-media a:hover {
