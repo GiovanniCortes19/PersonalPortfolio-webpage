@@ -3,7 +3,6 @@
   padding: 0;
 }
 
-/* box-sizing and font sizing */
 *,
 *::before,
 *::after {
@@ -107,6 +106,8 @@ section {
   align-items: center;
 }
 
+/* Projects Section */
+
 .projects-section {
   text-align: center;
   padding: 10rem 2rem;
@@ -117,4 +118,41 @@ section {
   margin: 0 auto;
   padding-bottom: 5px;
   border-bottom: 2px solid;
+}
+
+/* Contact Section */
+.contact-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#contact-title {
+  font-size: 5rem;
+  font-weight: bolder;
+}
+
+.contact-section p {
+  margin-top: 3px;
+}
+
+#social-media {
+  margin-top: 7vh;
+  width: 30%;
+  display: flex;
+  justify-content: space-between;
+}
+
+#social-media a {
+  font-size: 2.4rem;
+  text-shadow: 2px 2px 1px #1f1f1f;
+  transition: transform 0.3s ease-out;
+  text-decoration: none;
+  color: white;
+}
+
+#social-media a:hover {
+  transform: translateY(8px);
+  color: gold;
 }
